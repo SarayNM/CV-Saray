@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,800;1,600&family=Send+Flowers&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,3 +10,32 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    font-size: 1.6rem;
+    background-color: rgba(100, 148, 237, 0.459);
+}
+
+header {
+    background-image: url(./images/pic-saray.jpeg);
+    background-size: cover;
+    
+}
+
+h1 {
+    font-family: 'Send Flowers', cursive;
+    padding-top: 50rem;
+    margin-left: 1rem;
+}
+
+main ul {
+    list-style: none;
+    border: 2px solid blue;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+
+
+
+
