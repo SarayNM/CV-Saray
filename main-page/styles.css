@@ -1,41 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,800;1,600&family=Send+Flowers&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,800;1,600&family=Send+Flowers&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
-    background-color: rgba(100, 148, 237, 0.459);
+  font-size: 1.6rem;
+  background-color: rgba(100, 148, 237, 0.459);
 }
 
-header {
-    background-image: url(./images/pic-saray.jpeg);
-    background-size: cover;
-    
-}
-
-h1 {
-    font-family: 'Send Flowers', cursive;
-    padding-top: 50rem;
-    margin-left: 1rem;
-}
-
-main ul {
-    list-style: none;
-    border: 2px solid blue;
-    margin: 2rem;
+header nav section {
+    background-color: rgba(128, 128, 128, 0.616);
+    display: flex;
+    justify-content: flex-end ;
     padding: 1rem;
 }
 
+header {
+  background-image: url(./images/pic-saray.jpeg);
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Send Flowers", cursive;
+  padding-top: 50rem;
+  margin-left: 1rem;
+}
 
 
 
-
+main {
+    font-family: 'Poppins', sans-serif;
+padding: 2rem;
+}
+main ul {
+    box-shadow: 0.5em 0.5em rgba(0, 55, 255, 0.277);
+  list-style: none;
+  border: 2px solid blue;
+  margin: 2rem;
+  padding: 1rem;
+}
+ 
