@@ -13,6 +13,7 @@ html {
 body {
   font-size: 1.6rem;
   background-color: rgba(100, 148, 237, 0.459);
+  
 }
 
 header nav section {
@@ -29,11 +30,17 @@ header {
 
 h1 {
   font-family: "Send Flowers", cursive;
-  padding-top: 50rem;
-  margin-left: 1rem;
+  margin-top: 46rem;
+  margin-right: 16rem;
+  margin-left: -36rem;
+  transform: rotate(90deg);
+  
+  
 }
 
-
+h3 {
+  text-transform: uppercase;
+}
 
 main {
     font-family: 'Poppins', sans-serif;
@@ -47,3 +54,76 @@ main ul {
   padding: 1rem;
 }
  
+.languages {
+  font-weight: 600;
+}
+
+
+.aboutMe {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 2px solid blue;
+  
+}
+
+.WorkExperience {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 2px solid blue;
+  
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-gap: 2rem;
+   padding: 5rem;
+  height: 70vh;
+ 
+}
+
+.one, .two, .three, .four, .five, .six { 
+  background-color: rgba(255, 255, 255, 0.366);
+  border: 1px solid blue;
+}
+
+
+.studies {
+  padding-top: 4rem;
+padding-bottom: 4rem;
+border-bottom: 2px solid blue;
+}
+
+@media screen and (max-width: 660px){
+
+  body {
+    background-color: olive;
+  }
+
+}
+
+header {
+  background-image: url(./images/pic-saray.jpeg);
+  background-size: cover;
+}
+
+
+
+
+@media screen and (max-width: 992px){
+
+  body {
+    background-color: rgba(153, 0, 255, 0.402);
+  }
+  
+.WorkExperience {
+  display: block;
+}
+
+}
+
+header {
+  background-image: url(./images/pic-saray.jpeg);
+  background-size: cover;
+}
